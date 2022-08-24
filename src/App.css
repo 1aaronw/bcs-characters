@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-movement infinite 10s linear;
   }
 }
 
@@ -28,3 +28,23 @@
   color: #61dafb;
 }
 
+@keyframes App-logo-movement {
+  0% {
+      transform: translate(0)
+  }
+  20% {
+      transform: translate(-10px, 10px)
+  }
+  40% {
+      transform: translate(-10px, -10px)
+  }
+  60% {
+      transform: translate(10px, 10px)
+  }
+  80% {
+      transform: translate(10px, -10px)
+  }
+  to {
+      transform: translate(0)
+  }
+}
