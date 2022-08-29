@@ -5,3 +5,4 @@ Uses:
     - Javascript
     - Axios
     - HTML/CSS
+    - Git
