@@ -7,17 +7,22 @@ import CharacterGrid from './Characters/CharacterGrid.js';
 function App() {
   const [items, setItems] = useState([])
 
+  //Fetching the api
   useEffect(() => {
     const fetchItems = async () => {
       const result = await axios
       ("https://www.breakingbadapi.com/api/characters?category=Better+Call+Saul");
       
+      const data = result.data;
       setItems(result.data);
+      data[5].nickname = "Francesca";
       console.log(result.data);
-      
+      console.log(data[5].nickname);
     }
     fetchItems();
   }, []);
+
+  //main visuals
   return (
     <div className="App">
       <header className="App-header">

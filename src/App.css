@@ -9,6 +9,9 @@
   pointer-events: none;
 }
 
+ul {
+  list-style:none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -58,3 +61,7 @@
   grid-template-columns: auto auto auto;
 }
 
+.img-cards {
+  height: 150px;
+  width: 120px;
+}
