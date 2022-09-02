@@ -16,6 +16,7 @@ function App() {
       const data = result.data;
       setItems(result.data);
       data[5].nickname = "Francesca";
+      data[10].portrayed = "Michael Mando";
       console.log(result.data);
       console.log(data[5].nickname);
     }
@@ -30,14 +31,14 @@ function App() {
         <p>
           Better Call Saul Characters
         </p>
-        <CharacterGrid items={items} />
+        <div className="cards">
+          <CharacterGrid items={items} />
+        </div>
       </header>
 
     </div>
   );
 }
-
-// bcs api: https://www.breakingbadapi.com/api/characters?category=Better+Call+Saul
 
 
 export default App;

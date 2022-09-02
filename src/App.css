@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   color: white;
@@ -57,11 +58,20 @@ ul {
 
 .cards {
   display: grid;
-  gap: 20px;
+  gap: 40px;
   grid-template-columns: auto auto auto;
 }
 
-.img-cards {
-  height: 150px;
-  width: 120px;
+.character-card:hover{
+  opacity: 50%;
+  
 }
+
+.img-cards {
+  height: 200px;
+  width: 150px;
+}
+
+
+
+
