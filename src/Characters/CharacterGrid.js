@@ -11,16 +11,19 @@ const CharacterGrid = ({items}) => {
                                 <img src ={item.img} className="img-cards"alt="image" />
                             </div>
                         </li>
-                        <div class="text">
-                            <li>
-                                {item.name}
-                            </li>
-                            <li>
-                                ({item.nickname})
-                            </li>
-                            <li>
-                                Portrayed By: {item.portrayed}
-                            </li>
+                        <div className="overlay">
+                            <div className="text">
+                                <li>
+                                    {item.name}
+                                </li>
+                                <li>
+                                    ({item.nickname})
+                                </li>
+                                <li>
+                                    Portrayed By: {item.portrayed}
+                                </li>
+                            </div>
+                                
                         </div>
                         
                     </ul>

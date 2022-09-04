@@ -60,18 +60,39 @@ ul {
   display: grid;
   gap: 40px;
   grid-template-columns: auto auto auto;
-}
-
-.character-card:hover{
-  opacity: 50%;
-  
+  width:50%;
+  position: relative;
 }
 
 .img-cards {
   height: 200px;
   width: 150px;
+  opacity: 1;
 }
 
+.overlay {
+  height: 200px;
+  width: 150px;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.card:hover .img-cards{
+  opacity:0.5;
+}
+
+.card:hover .overlay{
+  opacity: 1;
+}
+
+.text{
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -140%);
+  text-align: center;
+  
+}
 
 
 

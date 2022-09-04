@@ -7,7 +7,7 @@ import CharacterGrid from './Characters/CharacterGrid.js';
 function App() {
   const [items, setItems] = useState([])
 
-  //Fetching the api
+  //Fetching the api & adjusting info
   useEffect(() => {
     const fetchItems = async () => {
       const result = await axios
