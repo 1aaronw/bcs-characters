@@ -6,10 +6,4 @@ Uses:
     - Axios
     - HTML/CSS
     - Git
-<<<<<<< HEAD
-
-    ![Screenshot](bcs-charactersv3.png)
-=======
-    
-    ![alt text](bcsc-version3.png)
->>>>>>> 9c766c11dd600cd9b917d44011c5f0d5ae4c696e
+    ![Screenshot](https://user-images.githubusercontent.com/87725158/188298767-52785ae7-9f71-4f2b-b1d5-19bb0df607e1.png)
