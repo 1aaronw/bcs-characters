@@ -6,3 +6,5 @@ Uses:
     - Axios
     - HTML/CSS
     - Git
+
+    ![Screenshot](bcs-charactersv3.png)
